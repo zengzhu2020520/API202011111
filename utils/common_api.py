@@ -65,5 +65,5 @@ class API_INFO:
 
 if __name__ == '__main__':
     api_info = API_INFO()
-    value = api_info.del_tag(101)
+    value = api_info.get_created_tag()
     print(value.json())
